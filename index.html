@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <div id="title" class="d-flex justify-content-center mb-4 mt-2">
+    <h2>Meme Generator!</h2>
+  </div>
+  <div class="container-md" id="image-url">
+    <label class="form-label d-flex justify-content-center">Image Url</label>
+    <div class="container-md d-flex justify-content-center">
+      <input class="form-control w-75 opacity-75 " id="image-url-input" placeholder="place image url here">
+    </div>
+  </div>
+  <div class="container-md" id="top-text">
+    <label class="form-label d-flex justify-content-center">Top Text</label>
+    <div class="container-md d-flex justify-content-center">
+      <input class="form-control w-75 opacity-75 " id="top-text-input" placeholder="place the text you would like to see at the top of the meme here">
+    </div>
+  </div>
+  <div class="container-md" id="bottom-text">
+    <label class="form-label d-flex justify-content-center">Bottom Text</label>
+    <div class="container-md d-flex justify-content-center">
+      <input class="form-control w-75 opacity-75 " id="bottom-text-input" placeholder="place the text you would like to see at the bottom of the meme here">
+    </div>
+  </div>
+  <div class="container-md d-flex justify-content-center mt-4 mb-5">
+    <button class="btn btn-success" id="submit-button">Submit to finish!</button>
+  </div>
+  <div class="container-md row" id="memes">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
